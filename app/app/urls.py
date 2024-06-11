@@ -28,6 +28,6 @@ urlpatterns = [
          name='api-docs',
          ),
     path('user/create/', include('user.urls')),
-    # path('user/token/')
-    # path('user/me/')
+    path('user/token/')
+    path('user/me/')
 ]
